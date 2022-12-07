@@ -12,7 +12,7 @@ Location: Szczecin, Poland
 
 ## Work experience
 
-### DEV MEDIA June 2020 - present
+### MEDIA June 2020 - present
 
 product manager: May 2021 - present
 
