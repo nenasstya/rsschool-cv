@@ -135,15 +135,7 @@ html {
 
  .link:hover {
   color: #5d7260;
- } 
- .rss {
-  width: 121px;
-  height: 45px;
-  background-image: url("./assets/svg/rss.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
+ }
 
 
 .footer-container {
