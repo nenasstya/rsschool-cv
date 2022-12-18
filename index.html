@@ -14,7 +14,7 @@
 
 <body> 
   <header class = "header">
-    <div class = "container">
+    <div class = "container header-container">
      <nav class="nav">
        <ul class="nav-list">
          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -29,8 +29,8 @@
    </div>
   </header>
 
-  <main class = "main" class ="main-container">
-    <div class = "container">
+  <main class = "main">
+    <div class = "container main-container">
      <section h1 class="section" id="profile">
        <h1 class="section-title">Nastya Kabunina</h1>
         <p>JUNIOR FRONT-END DEVELOPER</p>
@@ -38,11 +38,20 @@
 
      <section h2 class="section" class="section-title" id="contacts">
         <h2 class="section-title">Contacts</h2>
-          <p> <img src="/mail.png" alt="mail">
+          <p> <img class="icons" src="assets/mail.png" alt="mail">
             email: <a href="mailto:nenasstya@gmail.com" target="_blank" rel="noopener">nenasstya@gmail.com</a></p>
-          <p><a href="https://www.linkedin.com/in/nastyanekrasova/" target="_blank" rel="noopener">LinkedIn</a></p>
-          <p>github: <a href="https://github.com/nenasstya" target="_blank" rel="noopener">nenasstya</a> </p>
-          <p>Location: Szczecin, Poland</p></span>
+          <p><img class="icons"  src="assets/linkedin.png" alt="linkedin"> 
+            <a href="https://www.linkedin.com/in/nastyanekrasova/" target="_blank" rel="noopener">LinkedIn</a></p>
+          <p><img class="icons" src="assets/git.png" alt="git">
+            github: <a href="https://github.com/nenasstya" target="_blank" rel="noopener">nenasstya</a> </p>
+          <p><img class="icons"  src="assets/location.png" alt="location">
+            Location: Szczecin, Poland</p></span>
+     </section>
+
+     <section h2 class="section" class="section-title" id="summary">
+      <h2 class="section-title">Summary</h2>
+      <p>I'm a product manager. My total experience is over 4 years as SEO Manager, Growth Team Lead and Product Manager.
+      </p>
      </section>
 
      <section h2 class="section" class="section-title" id="skills">
@@ -52,27 +61,68 @@
 
      <section h2 class="section" class="section-title" id="code">
         <h2 class="section-title">Code</h2>
-       <p>test</p>
-      </section>
+          <pre>
+            <code>`.body {
+            font-family: 'Mulish', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #4d2323;
+            }
+            </code>
+          </pre>
+     </section>
 
-     <section h2 class="section" class="section-title" id="work">Work experience
+     <section h2 class="section" class="section-title" id="work">
         <h2 class="section-title">Work experience</h2>
-        <p>test</p>
+          <h3>MEDIA June 2020 - present</h3>
+          <p>product manager: May 2021 - present</p>
+          <ul>
+          <li>coordinating the development process;</li>
+          <li>Product Backlog management and prioritization;</li>
+          <li>close collaboration with Dev Teams, Stakeholders, Users at any stage;</li>
+          <li>Product analysis and research, Roadmap creation;</li>
+          <li>Product promotion strategy management</li>
+          </ul>
+          <p>SEO: June 2020 - December 2021</p>
+          <ul>
+          <li>internal and external website optimization, technical audit to identify errors</li>
+          <li>developed and implemented a marketing strategy for promotion in the media</li>
+          <li>analysis of the effectiveness of advertising campaigns, development of the target audience</li>
+          <li>assistance in organizing the work of contractors (development, designers)</li>
+          </ul>
+          <h3>MAYFIN GROUP July 2018 - May 2020</h3>
+          <p>SEO: January 2019 - June 2020</p>
+          <ul>
+          <li>internal and external website optimization, technical audit to identify errors. Based on the audit, setting a task for the development / elimination of bugs</li>
+          <li>coordinated the work of content managers and contractors: copywriters (setting up technical specifications, acceptance, payment for work), link building team</li>
+          <li>A/B testing with Google Optimize</li>
+          <li>collection of requirements for the development of new types of pages</li>
+          <li>analysis of competitors and collection of popular requests, prepared a content plan for sections of the wiki</li>
+          </ul>
       </section>
 
      <section h2 class="section" class="section-title" id="education">
         <h2 class="section-title">Education</h2>
-        <p>test</p>
+        <p>RIVSH (2014-2016) Culturology</p>
+        <p>BSPU (2009-2014) History. Socio-political disciplines</p>
+        <p></p>Analytics based product management. GoPractice! Simulator, April 2021</p>
+        <p>PSM training</p>
       </section>
       
      <section h2 class="section" class="section-title" id="english">
        <h2 class="section-title">English</h2>
-        <p>test</p>
+        <p>B1</p>
       </section>
+    </div>
   </main>
 
   <footer class = "footer">
-    <div class = "container">
+    <div class = "container footer-container"></div>
   </footer>
 
 </body>
